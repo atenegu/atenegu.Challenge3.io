@@ -1,0 +1,123 @@
+body{
+	
+	font-family: 'Kanit', sans-serif;
+	color: #ffffff;
+  	animation: colorChange 2s infinite running forwards;
+  	background: rgb(60,62,92);
+	background: linear-gradient(0deg, rgba(60,62,92,1) 0%, rgba(32,33,48,1) 100%);
+}
+
+.color {
+
+}
+
+
+@keyframes colorChange {
+  0%  {background: linear-gradient(0deg, rgba(153,90,79,1) 0%, rgba(205,50,21,1) 100%);}
+  100% {background: linear-gradient(0deg, rgba(60,62,92,1) 0%, rgba(32,33,48,1) 100%);}
+}
+
+
+header {
+	text-align: center;
+	padding: 5px;
+}
+
+header h1 {
+ color: #BCC4DB;
+ font-size: 25px;
+ padding: 10px;
+ margin: 5px;
+}
+
+.container {
+	margin-left: 10px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#step1 h2{
+	margin-top: 5px;
+}
+
+#countdown {
+	font-size: 18px;
+
+}
+
+.big {
+	font-size: 35px;
+}
+
+.message {
+	text-align: center;
+	font-size: 25px;
+}
+
+img {
+	width: 230px;
+	height: auto;
+}
+
+
+
+button {
+	border-radius: 5px;
+}
+
+
+
+#countdown {
+	visibility: hidden;
+}
+
+ 
+#step2 {
+	color: #ffffff;
+ }
+#step2 {
+	padding-top: 25px;
+	color: #7E8287;
+ }
+
+
+#step3  { 
+	padding-top: 25px;
+	color: #7E8287;
+ }
+
+ #step2 button  {
+ 	background-color: #8A8E93;
+ }
+
+.choices {
+	margin-right: 100px;
+}
+
+
+#map {
+	margin-left: 100px;
+	height: 600px;
+	width: 800px;
+
+}
+
+ .mapboxgl-popup-close-button {
+  font-size: 16px;
+  color: #fff;
+}
+.mapboxgl-popup-content {
+  padding: 20px 5px 15px 20px;
+  color: #fff;
+  background-color: #2B2D42;
+}
+.mapboxgl-popup-content h3 {
+  margin-top: 5px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: #2B2D42;
+} 
+

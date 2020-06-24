@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MapBox</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+<!-- 		<script src="scripts/main.js" defer></script> -->
+		<script src="scripts/other.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<link href="styles/mystyle.css" rel="stylesheet" />
+
+	<!-- 	Directions -->
+<!-- 		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" /> -->
+	</head>
+	</head>
+	<body id='color'>
+		<header>
+		<h1>Interplanetary Transport System Interface</h1>
+	</header>
+
+		<p class='message'>Message from HQ: <i class='big'>"Kennedy space center is being invaded by roboCats! Prepare well!"</i></p>
+		<div class='container'>
+			<div class='choices'>
+				<div class = 'mini-container' id='step1'>
+					<h2>Step 1</h2>
+					<h3>Choose landing location:</h3>
+					<div class='buttons'>
+						<button id='button1'>Landing site A</button>
+						<button id='button2'>Landing site B</button>
+					</div>
+				</div>
+				<div class = 'mini-container' id='step2'>
+					<h2>Step 2</h2>
+					<h3>Choose your fighter:</h3>
+					<article id='dog'></article>
+					<button id='next'>Next</button>
+				</div>
+				<div class = 'mini-container' id='step3'>
+					<h2>Step 3</h2>
+					<h3 id="countdown">Prepare for landing</h3>
+					<article id='dog'></article>
+				</div>
+			</div>
+			<div id='map'></div>
+		</div>
+	</body>
+</html>
